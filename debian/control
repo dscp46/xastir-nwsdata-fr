@@ -1,0 +1,14 @@
+Source: xastir-nwsdata-fr
+Section: hamradio
+Priority: optional
+Maintainer: Celestine Gramaize F4HOF <celestine+dev@gramaize.eu>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: https://github.com/dscp46/xastir-nwsdata-fr
+
+Package: xastir-nwsdata-fr
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, xastir, xastir-data
+Description: Donnees pour les bulletins de vigilance meteo Francais
+ Ce paquet fournit les ressources nécessaires à l'affichage
+ des bulletins de vigilance météo sur Xastir.

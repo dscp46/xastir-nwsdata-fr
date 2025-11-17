@@ -1,0 +1,4 @@
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/xastir-nwsdata-fr
+debian/xastir-nwsdata-fr.substvars
